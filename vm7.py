@@ -8,7 +8,7 @@ import os
 
 credential = AzureCliCredential()
 
-subscription_id = "880b615d-e130-4835-bb12-c6b33dcaec5b"
+subscription_id = ""
 
 resource_client = ResourceManagementClient(credential, subscription_id)
 RESOURCE_GROUP_NAME = "Python-RG"
